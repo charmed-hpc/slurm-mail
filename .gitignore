@@ -28,6 +28,19 @@ share/python-wheels/
 MANIFEST
 *.deb
 *.rpm
+.pybuild
+## Debian build artifacts
+debian/.debhelper/
+debian/tmp/
+debian/slurm-mail/
+debian/files
+debian/*.substvars
+debian/*.debhelper.log
+debian/*.postinst.debhelper
+debian/*.postrm.debhelper
+debian/*.prerm.debhelper
+debian/*.preinst.debhelper
+debian/debhelper-build-stamp
 
 # PyInstaller
 *.manifest

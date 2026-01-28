@@ -1,0 +1,6 @@
+slurm-mail (4.29ub24-ubuntu1ppa1) noble; urgency=low
+
+  [ Dominic Sloan-Murphy ]
+  * Initial release
+
+ -- Dominic Sloan-Murphy <dominic.sloanmurphy@canonical.com>  Wed, 28 Jan 2026 12:31:10 +0000

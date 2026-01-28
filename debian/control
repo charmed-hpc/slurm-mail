@@ -1,0 +1,13 @@
+Source: slurm-mail
+Section: utils
+Priority: optional
+Standards-Version: 3.9.5
+Maintainer: Dominic Sloan-Murphy <dominic.sloanmurphy@canonical.com>
+Homepage: https://www.github.com/neilmunday/slurm-mail
+Build-Depends: fakeroot, dh-python, lintian, lsb-release, python3, python3-stdeb
+
+Package: slurm-mail
+Architecture: all
+Depends: cron, logrotate, ${misc:Depends}, python3, ${python3:Depends}
+Description: Provides enhanced e-mails for Slurm.
+  Slurm-Mail is a drop in replacement for Slurm's  e-mails to give users much more information about their jobs  compared to the standard Slurm e-mails.
